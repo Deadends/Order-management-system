@@ -1,7 +1,7 @@
 from Connect import XTSConnect
 # MarketData API Credentials
-API_KEY = "2f5912b07b4542edb20182"
-API_SECRET = "Jive806@oH"
+API_KEY = ""
+API_SECRET = ""
 source = "WEBAPI"
 
 # Initialise
