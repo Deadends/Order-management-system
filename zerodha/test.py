@@ -3,11 +3,11 @@ import pyotp
 import os
 
 # Credentials
-user_id = 'VJ4170'
-password = 'arush123'
-api_key = '12kder0f7fjb9waf'
-api_secret = 'crebuz2yk6aqx0y8xqv43ogpkl5b8wm8'
-totp_key = 'MDQJDQXZZEDAEQGQUGWPXVKOPIMTB6UG'
+user_id = ''
+password = ''
+api_key = ''
+api_secret = ''
+totp_key = ''
 
 # Step 1: Generate TOTP using the TOTP key
 totp = pyotp.TOTP(totp_key).now()
